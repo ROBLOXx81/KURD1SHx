@@ -2517,7 +2517,7 @@ end)
 CMDBar.FocusLost:Connect(function()
 	command = CMDBar.Text
 	Players:Chat(command)
-	SendNotify("Mzury",("snap : r8yoh\nRoblox : Wolfforevr "..command),5)
+	SendNotify("Mzury",("snap : r8yoh "..command),5)
 	CMDBar.Text = ""
 end)
 
@@ -2530,7 +2530,7 @@ WalkSpeed_Button.MouseButton1Click:Connect(function()
 			Speed = 16
 		end
 		plr.Character.Humanoid.WalkSpeed = tonumber(Speed)
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 	end)
 end)
 
@@ -2541,7 +2541,7 @@ JumpPower_Button.MouseButton1Click:Connect(function()
 			Power = 50
 		end
 		plr.Character.Humanoid.JumpPower = tonumber(Power)
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 	end)
 end)
 
@@ -2552,7 +2552,7 @@ FlySpeed_Button.MouseButton1Click:Connect(function()
 			Speed = 50
 		end
 		FlySpeed = tonumber(Speed)
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 	end)
 end)
 
@@ -2565,12 +2565,12 @@ end)
 
 SaveCheckpoint_Button.MouseButton1Click:Connect(function()
 	SavedCheckpoint = GetRoot(plr).Position
-	SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+	SendNotify("Mzury","snap : r8yoh",10)
 end)
 
 ClearCheckpoint_Button.MouseButton1Click:Connect(function()
 	SavedCheckpoint = nil
-	SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+	SendNotify("Mzury","snap : r8yoh",10)
 end)
 
 local flying = true
@@ -3384,7 +3384,7 @@ Day_Button.MouseButton1Click:Connect(function()
 	if Shaders_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(255,0,0) then
 		game:GetService("Lighting").ClockTime = 14
 	else
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 	end
 end)
 
@@ -3392,7 +3392,7 @@ Night_Button.MouseButton1Click:Connect(function()
 	if Shaders_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(255,0,0) then
 		game:GetService("Lighting").ClockTime = 19
 	else
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 	end
 end)
 
@@ -3467,19 +3467,19 @@ plr.CharacterAdded:Connect(function(x)
 	end
 	if PotionDi_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(PotionDi_Button)
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 	end
 	if PotionFling_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(PotionFling_Button)
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 	end
 	if AntiRagdoll_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(AntiRagdoll_Button)
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 	end
 	if SpamMines_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(SpamMines_Button)
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 	end
 	if Fly_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(Fly_Button)
@@ -3487,7 +3487,7 @@ plr.CharacterAdded:Connect(function(x)
 		Fly_Pad.Visible = false
 		KeyDownFunction:Disconnect()
 		KeyUpFunction:Disconnect()
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 	end
 	x.Humanoid.Died:Connect(function()
 		pcall(function()
@@ -3521,12 +3521,12 @@ plr.CharacterAdded:Connect(function(x)
 		end
 		if not (count == original_ammount) then
 			SysBroker:Destroy()
-			SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+			SendNotify("Mzury","snap : r8yoh",10)
 			game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 		end
 	else
 		SysBroker:Destroy()
-		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+		SendNotify("Mzury","snap : r8yoh",10)
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 	end
 	appearance:Destroy()
@@ -3537,7 +3537,7 @@ task.spawn(function()
 		pcall(function()
 			local GuiVersion = loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/version"))()
 			if version<GuiVersion then
-				SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+				SendNotify("Mzury","snap : r8yoh",10)
 				task.wait(5)
 				SysBroker:Destroy()
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
@@ -3573,18 +3573,18 @@ task.spawn(function()
 
 			if (plr.Name ~= original_name) or (plr.DisplayName ~= original_display) or (plr.UserId ~= plr.CharacterAppearanceId) then
 				SysBroker:Destroy()
-				SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr...")
+				SendNotify("Mzury","snap : r8yoh...")
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 			end
 			if (date_1 ~= original_date) and (date_2 ~= original_date) and (date_3 ~= original_date) then
 				SysBroker:Destroy()
-				Send/tify("Mzury","snap : r8yoh\nRoblox : Wolfforevr...")
+				Send/tify("Mzury","snap : r8yoh...")
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 			end
 		end)
 	end
 end)
 
-SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+SendNotify("Mzury","snap : r8yoh",10)
 setclipboard("https://discord.gg/NR9")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/premium"))() -- load the premium
