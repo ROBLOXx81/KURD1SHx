@@ -412,7 +412,7 @@ TitleBarLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "_____//MZURY\\____"
+TitleBarLabel.Text = "_____//@ALL.MZURY\\\____"
 TitleBarLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
 TitleBarLabel.TextScaled = true
 TitleBarLabel.TextSize = 14.000
@@ -452,7 +452,7 @@ Game_Section_Button.BorderSizePixel = 0
 Game_Section_Button.Position = UDim2.new(0, 0, 0, 65)
 Game_Section_Button.Size = UDim2.new(0, 105, 0, 30)
 Game_Section_Button.Font = Enum.Font.Oswald
-Game_Section_Button.Text = "یاری"
+Game_Section_Button.Text = "هاک v1"
 Game_Section_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Game_Section_Button.TextScaled = true
 Game_Section_Button.TextSize = 14.000
@@ -467,7 +467,7 @@ Character_Section_Button.BorderSizePixel = 0
 Character_Section_Button.Position = UDim2.new(0, 0, 0, 105)
 Character_Section_Button.Size = UDim2.new(0, 105, 0, 30)
 Character_Section_Button.Font = Enum.Font.Oswald
-Character_Section_Button.Text = "هاک"
+Character_Section_Button.Text = "هاک v2"
 Character_Section_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Character_Section_Button.TextScaled = true
 Character_Section_Button.TextSize = 14.000
@@ -512,7 +512,7 @@ Misc_Section_Button.BorderSizePixel = 0
 Misc_Section_Button.Position = UDim2.new(0, 0, 0, 225)
 Misc_Section_Button.Size = UDim2.new(0, 105, 0, 30)
 Misc_Section_Button.Font = Enum.Font.Oswald
-Misc_Section_Button.Text = "هاک v2"
+Misc_Section_Button.Text = "هاک v3"
 Misc_Section_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Misc_Section_Button.TextScaled = true
 Misc_Section_Button.TextSize = 14.000
@@ -585,7 +585,7 @@ SpamMines_Button.BorderSizePixel = 0
 SpamMines_Button.Position = UDim2.new(0, 25, 0, 75)
 SpamMines_Button.Size = UDim2.new(0, 150, 0, 30)
 SpamMines_Button.Font = Enum.Font.Oswald
-SpamMines_Button.Text = "Spam mines"
+SpamMines_Button.Text = "سپام مینی"
 SpamMines_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 SpamMines_Button.TextScaled = true
 SpamMines_Button.TextSize = 14.000
@@ -645,7 +645,7 @@ ChatAlert_Button.BorderSizePixel = 0
 ChatAlert_Button.Position = UDim2.new(0, 210, 0, 275)
 ChatAlert_Button.Size = UDim2.new(0, 150, 0, 30)
 ChatAlert_Button.Font = Enum.Font.Oswald
-ChatAlert_Button.Text = "Chat alert"
+ChatAlert_Button.Text = "سپام"
 ChatAlert_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 ChatAlert_Button.TextScaled = true
 ChatAlert_Button.TextSize = 14.000
@@ -996,7 +996,7 @@ ClearCheckpoint_Button.BorderSizePixel = 0
 ClearCheckpoint_Button.Position = UDim2.new(0, 210, 0, 225)
 ClearCheckpoint_Button.Size = UDim2.new(0, 150, 0, 30)
 ClearCheckpoint_Button.Font = Enum.Font.Oswald
-ClearCheckpoint_Button.Text = "Clear checkpoint"
+ClearCheckpoint_Button.Text = "ژێبرنا سەیڤ"
 ClearCheckpoint_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 ClearCheckpoint_Button.TextScaled = true
 ClearCheckpoint_Button.TextSize = 14.000
@@ -1041,7 +1041,7 @@ SaveCheckpoint_Button.BorderSizePixel = 0
 SaveCheckpoint_Button.Position = UDim2.new(0, 210, 0, 175)
 SaveCheckpoint_Button.Size = UDim2.new(0, 150, 0, 30)
 SaveCheckpoint_Button.Font = Enum.Font.Oswald
-SaveCheckpoint_Button.Text = "Save checkpoint"
+SaveCheckpoint_Button.Text = "سەیڤ"
 SaveCheckpoint_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 SaveCheckpoint_Button.TextScaled = true
 SaveCheckpoint_Button.TextSize = 14.000
@@ -1056,7 +1056,7 @@ Respawn_Button.BorderSizePixel = 0
 Respawn_Button.Position = UDim2.new(0, 25, 0, 225)
 Respawn_Button.Size = UDim2.new(0, 150, 0, 30)
 Respawn_Button.Font = Enum.Font.Oswald
-Respawn_Button.Text = "Respawn"
+Respawn_Button.Text = "خۆ کوشتن"
 Respawn_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Respawn_Button.TextScaled = true
 Respawn_Button.TextSize = 14.000
@@ -1298,7 +1298,7 @@ StandTarget_Button.BorderSizePixel = 0
 StandTarget_Button.Position = UDim2.new(0, 25, 0, 250)
 StandTarget_Button.Size = UDim2.new(0, 150, 0, 30)
 StandTarget_Button.Font = Enum.Font.Oswald
-StandTarget_Button.Text = "راوستیان"
+StandTarget_Button.Text = "برەخڤە"
 StandTarget_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 StandTarget_Button.TextScaled = true
 StandTarget_Button.TextSize = 14.000
@@ -2517,7 +2517,7 @@ end)
 CMDBar.FocusLost:Connect(function()
 	command = CMDBar.Text
 	Players:Chat(command)
-	SendNotify("Mzury",("Snap : r8yoh "..command),5)
+	SendNotify("Mzury",("snap : r8yoh\nRoblox : Wolfforevr "..command),5)
 	CMDBar.Text = ""
 end)
 
@@ -2530,7 +2530,7 @@ WalkSpeed_Button.MouseButton1Click:Connect(function()
 			Speed = 16
 		end
 		plr.Character.Humanoid.WalkSpeed = tonumber(Speed)
-		SendNotify("Mzury","Snap : r8yoh",5)
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 	end)
 end)
 
@@ -2541,7 +2541,7 @@ JumpPower_Button.MouseButton1Click:Connect(function()
 			Power = 50
 		end
 		plr.Character.Humanoid.JumpPower = tonumber(Power)
-		SendNotify("Mzury","Snap : r8yoh",5)
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 	end)
 end)
 
@@ -2552,7 +2552,7 @@ FlySpeed_Button.MouseButton1Click:Connect(function()
 			Speed = 50
 		end
 		FlySpeed = tonumber(Speed)
-		SendNotify("Mzury","Snap : r8yoh",5)
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 	end)
 end)
 
@@ -2565,12 +2565,12 @@ end)
 
 SaveCheckpoint_Button.MouseButton1Click:Connect(function()
 	SavedCheckpoint = GetRoot(plr).Position
-	SendNotify("Mzury","Snap : r8yoh",5)
+	SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 end)
 
 ClearCheckpoint_Button.MouseButton1Click:Connect(function()
 	SavedCheckpoint = nil
-	SendNotify("Mzury","Snap : r8yoh",5)
+	SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 end)
 
 local flying = true
@@ -3384,7 +3384,7 @@ Day_Button.MouseButton1Click:Connect(function()
 	if Shaders_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(255,0,0) then
 		game:GetService("Lighting").ClockTime = 14
 	else
-		SendNotify("Mzury","Snap : r8yoh",5)
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 	end
 end)
 
@@ -3392,7 +3392,7 @@ Night_Button.MouseButton1Click:Connect(function()
 	if Shaders_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(255,0,0) then
 		game:GetService("Lighting").ClockTime = 19
 	else
-		SendNotify("Mzury","Snap : r8yoh",5)
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 	end
 end)
 
@@ -3454,7 +3454,7 @@ Players.PlayerRemoving:Connect(function(player)
 	pcall(function()
 		if player.Name == TargetedPlayer then
 			UpdateTarget(nil)
-			SendNotify("Mzury","لێفت کر ڕەفی😂",5)
+			SendNotify("Mzury","لێفت کر ڕەفی😂",15)
 		end
 	end)
 end)
@@ -3467,19 +3467,19 @@ plr.CharacterAdded:Connect(function(x)
 	end
 	if PotionDi_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(PotionDi_Button)
-		SendNotify("Mzury","Snap : r8yoh",5)
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 	end
 	if PotionFling_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(PotionFling_Button)
-		SendNotify("Mzury","Snap : r8yoh",5)
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 	end
 	if AntiRagdoll_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(AntiRagdoll_Button)
-		SendNotify("Mzury","Snap : r8yoh",5)
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 	end
 	if SpamMines_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(SpamMines_Button)
-		SendNotify("Mzury","Snap : r8yoh",5)
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 	end
 	if Fly_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		ChangeToggleColor(Fly_Button)
@@ -3487,7 +3487,7 @@ plr.CharacterAdded:Connect(function(x)
 		Fly_Pad.Visible = false
 		KeyDownFunction:Disconnect()
 		KeyUpFunction:Disconnect()
-		SendNotify("Mzury","Snap : r8yoh",5)
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 	end
 	x.Humanoid.Died:Connect(function()
 		pcall(function()
@@ -3521,12 +3521,12 @@ plr.CharacterAdded:Connect(function(x)
 		end
 		if not (count == original_ammount) then
 			SysBroker:Destroy()
-			SendNotify("Mzury","Snap : r8yoh")
+			SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 			game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 		end
 	else
 		SysBroker:Destroy()
-		SendNotify("Mzury","Snap : r8yoh")
+		SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 	end
 	appearance:Destroy()
@@ -3537,7 +3537,7 @@ task.spawn(function()
 		pcall(function()
 			local GuiVersion = loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/version"))()
 			if version<GuiVersion then
-				SendNotify("Mzury","Snap : r8yoh",5)
+				SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
 				task.wait(5)
 				SysBroker:Destroy()
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
@@ -3573,18 +3573,18 @@ task.spawn(function()
 
 			if (plr.Name ~= original_name) or (plr.DisplayName ~= original_display) or (plr.UserId ~= plr.CharacterAppearanceId) then
 				SysBroker:Destroy()
-				SendNotify("Mzury","Snap : r8yoh...")
+				SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr...")
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 			end
 			if (date_1 ~= original_date) and (date_2 ~= original_date) and (date_3 ~= original_date) then
 				SysBroker:Destroy()
-				SendNotify("Mzury","Snap : r8yoh...")
+				Send/tify("Mzury","snap : r8yoh\nRoblox : Wolfforevr...")
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 			end
 		end)
 	end
 end)
 
-SendNotify("Mzury","Snap : r8yoh",10)
-setclipboard("https://discord.gg/RkhpySwNR9")
+SendNotify("Mzury","snap : r8yoh\nRoblox : Wolfforevr",10)
+setclipboard("https://discord.gg/NR9")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/premium"))() -- load the premium
