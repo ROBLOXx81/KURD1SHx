@@ -680,9 +680,6 @@ VoidProtection_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 VoidProtection_Button.TextScaled = true
 VoidProtection_Button.TextSize = 14.000
 VoidProtection_Button.TextWrapped = true
-MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
-end)
 --------
 PushAll_Button.Name = "PushAll_Button"
 PushAll_Button.Parent = Game_Section
@@ -3350,6 +3347,10 @@ end)
 
 InfYield_Button.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet('https://pastebin.com/raw/iMgUE4st'))()
+end)
+
+VoidProtection_Button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
 end)
 
 CMDX_Button.MouseButton1Click:Connect(function()
