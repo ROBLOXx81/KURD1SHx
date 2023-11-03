@@ -615,7 +615,7 @@ BreakCannons_Button.BorderSizePixel = 0
 BreakCannons_Button.Position = UDim2.new(0, 25, 0, 225)
 BreakCannons_Button.Size = UDim2.new(0, 150, 0, 30)
 BreakCannons_Button.Font = Enum.Font.Oswald
-BreakCannons_Button.Text = "چنە"
+BreakCannons_Button.Text = "رەنگێ ریسالا"
 BreakCannons_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 BreakCannons_Button.TextScaled = true
 BreakCannons_Button.TextSize = 14.000
@@ -3269,6 +3269,10 @@ end)
 
 VoidProtection_Button.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/E3jEX4g8"))()
+end)
+
+BreakCannons_Button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/A7hJbNAf"))()
 end)
 
 PotionDi_Button.MouseButton1Click:Connect(function()
